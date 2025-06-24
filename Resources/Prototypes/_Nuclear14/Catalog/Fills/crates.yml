@@ -189,6 +189,17 @@
     contents:
       - id: N14IngotLead20
 
+- type: entity # Corvax-Add-Start
+  parent: N14CrateBreakPlain
+  id: N14CrateBreakPlainFilledFuelTank
+  name: FuelTank crate
+  description: Crate containing 1 FuelTank
+  components:
+  - type: StorageFill
+    contents:
+      - id: N14FuelTankHandy
+        amount: 1 # Corvax-Add-End
+      
 - type: entity
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledAbraxo
@@ -341,6 +352,8 @@
   - type: StorageFill
     contents:
       - id: N14WeaponHMGcanadian
+        amount: 1
+      - id: Magazine762AmmoBelt # Corvax-Add
         amount: 1
 
 - type: entity
@@ -501,12 +514,12 @@
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledC4
   name: C4 crate
-  description: Crate containing 2 bundles of C4 .
+  description: Crate containing 3 bundles of C4 . 
   components:
   - type: StorageFill
     contents:
       - id: C4
-        amount: 2
+        amount: 3 # Corvax-Change
 
 - type: entity
   parent: N14CrateBreakPlain
@@ -583,7 +596,7 @@
         amount: 3
 
 - type: entity
-  parent: N14CrateBreakPlain
+  parent: N14CrateArmy # Corvax-Change
   id: N14CrateBreakPlainFilledDartboard
   name: Dart box crate
   description: Crate containing the needed board to play the game of darts.
@@ -592,6 +605,9 @@
     contents:
       - id: TargetDarts
         amount: 1
+      - id: BoxDarts # Corvax-Change
+        amount: 1
+
 
 - type: entity
   parent: N14CrateBreakPlain
@@ -638,11 +654,11 @@
   parent: N14CrateBreakPlain
   id: N14CrateBreakPlainFilledGrenadier
   name: Grenadier crate
-  description: Dangerous! Contains 4 40mm grenades for the grenade launcher.
+  description: Dangerous! Contains 2 40mm grenades for the grenade launcher.
   components:
   - type: StorageFill
     contents:
       - id: 40mmGrenadeFrag
-        amount: 4
+        amount: 2 # Corvax-Change
 
 

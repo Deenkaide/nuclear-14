@@ -55,7 +55,7 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/ross.rsi
     state: base
   product: N14CrateRedFilledRoss
-  cost: 340
+  cost: 250 # Corvax-Change
   category: Armory
   group: market
 
@@ -95,7 +95,7 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/canadianhmg.rsi
     state: base
   product: N14CrateBreakPlainFilledHMG
-  cost: 775
+  cost: 1755 # Corvax-Change
   category: Armory
   group: market
 
@@ -105,7 +105,7 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/bren.rsi
     state: base
   product: N14CrateBreakPlainFilledBren
-  cost: 750
+  cost: 950 # Corvax-Change
   category: Armory
   group: market
 
@@ -115,7 +115,7 @@
     sprite: Objects/Weapons/Bombs/c4.rsi
     state: icon
   product: N14CrateBreakPlainFilledC4
-  cost: 400
+  cost: 500 # Corvax-Change
   category: Armory
   group: market
 
@@ -145,7 +145,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombat.rsi
     state: icon
   product: N14CrateRedFilledMk1
-  cost: 500
+  cost: 560 # Corvax-Change
   category: Armory
   group: market
 
@@ -155,7 +155,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutcombatmk2.rsi
     state: icon
   product: N14CrateRedFilledMk2
-  cost: 700
+  cost: 845 #Corvax-Change
   category: Armory
   group: market
 
@@ -165,7 +165,7 @@
     sprite: _Nuclear14/Clothing/OuterClothing/Armor/falloutpolicevest.rsi
     state: icon
   product: N14CrateBreakPlainFilledPoliceVest
-  cost: 400
+  cost: 440 # Corvax-Change
   category: Armory
   group: market
 
@@ -185,6 +185,6 @@
     sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     state: frag
   product: N14CrateBreakPlainFilledGrenadier
-  cost: 150
+  cost: 275 # Corvax-Change
   category: Armory
   group: market

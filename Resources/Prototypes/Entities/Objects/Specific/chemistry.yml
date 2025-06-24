@@ -163,7 +163,7 @@
   - type: Spillable
     solution: beaker
   - type: StaticPrice
-    price: 10
+    price: 0 # Corvax-Change
   - type: PhysicalComposition
     materialComposition:
       Glass: 50
@@ -219,7 +219,7 @@
     materialComposition:
       Glass: 100
   - type: StaticPrice
-    price: 20
+    price: 2 # Corvax-Change
 
 - type: entity
   name: cryostasis beaker
@@ -526,6 +526,9 @@
     - 0,0,4,1
     quickInsert: true
     areaInsert: true
+    whitelist: # Corvax-Add
+      tags:
+      - Pill
     areaInsertRadius: 1
     storageInsertSound: /Audio/Effects/pill_insert.ogg
     storageRemoveSound: /Audio/Effects/pill_remove.ogg

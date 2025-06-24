@@ -213,7 +213,7 @@
   unit: materials-unit-bill
   stackEntity: N14CurrencyNCRDollar
   icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: ncr3 }
-  price: 0.66
+  price: 0.5 # Corvax-Change
 
 # NCR Dollars
 - type: entity
@@ -299,6 +299,9 @@
   name: aureus
   description: A gold coin used by the legion and tribes as currency.
   components:
+  - type: PhysicalComposition
+    materialComposition:
+      LegionAurei: 1
   - type: Stack
     stackType: LegionAureus
     count: 1
@@ -354,7 +357,15 @@
     state: aurelius3
   - type: Stack
     count: 100
-    
+
+- type: material
+  id: LegionAurei
+  name: legionAurei
+  unit: materials-unit-bill
+  stackEntity: N14CurrencyLegionAureus
+  icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: aurelius3 }
+  price: 50
+
 # Legion Denarius
 - type: entity
   parent: N14CurrencyCap
@@ -362,6 +373,9 @@
   name: denarius
   description: A silver coin used by the legion and tribes as currency.
   components:
+  - type: PhysicalComposition
+    materialComposition:
+      LegionDenarius: 1
   - type: Stack
     stackType: LegionDenarius
     count: 1
@@ -417,3 +431,11 @@
     state: denarius3
   - type: Stack
     count: 100
+
+- type: material 
+  id: LegionDenarius
+  name: legiondenarius
+  unit: materials-unit-bill
+  stackEntity: N14CurrencyLegionDenarius
+  icon: { sprite: /Textures/_Nuclear14/Objects/Misc/currency.rsi, state: denarius3 }
+  price: 1
