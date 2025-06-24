@@ -32,9 +32,9 @@
 
 # Tools
 - type: loadout
-  id: LoadoutBlueLineCCAppraisalTool
+  id: LoadoutBlueLineCCTradeCatalog
   category: Items
-  cost: 3
+  cost: 2
   exclusive: true
   requirements:
   - !type:CharacterJobRequirement
@@ -42,6 +42,6 @@
         - CaravanLeader
         - CaravanTrader
   items:
-    - AppraisalTool
+    - TradeCatalog
 
 #Corvax-Add End
