@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: TradeCatalog
+  id: N14ToolsTradeCatalog
   name: trade catalog
   description: List of all prices in the world.
   components:
